@@ -45,15 +45,17 @@ This template reflects real-world practices with:
 
 ##  Project Structure
 ```
-/ProjectRoot
-├── /API           # API layer with controllers, Swagger config, startup
-├── /Application   # Application layer: interfaces, DTOs, services
-├── /Infrastructure # Data access, external services, file storage
-├── /Domain         # Core domain entities and enums
-├── /Tests          # Unit test structure
-├── appsettings.json # Central configuration file
-├── Program.cs     # Entry point
-└── .gitignore
+/FinanceTrackerTemplate
+├── DependencyInjection # DI configuration and extension methods
+├── Interfaces # Service and repo interfaces
+├── Models # DTOs and entity models
+├── Repositories # Data access layer
+├── Services # Business logic
+ ├── UI # Controllers and endpoints
+├── FinanceTrackerTemplate.csproj
+├── FinanceTrackerTemplate.sln
+├── appsettings.json
+└── README.md
 ```
 
 
@@ -61,7 +63,6 @@ This template reflects real-world practices with:
 ## 🛠 How to Use This Template
 
 ### 1. Clone the Repository
-
 
 
 git clone https://github.com/your-username/your-repo-name.git
