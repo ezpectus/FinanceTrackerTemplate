@@ -51,7 +51,7 @@ This template reflects real-world practices with:
 ├── Models # DTOs and entity models
 ├── Repositories # Data access layer
 ├── Services # Business logic
- ├── UI # Controllers and endpoints
+├── UI # Controllers and endpoints
 ├── FinanceTrackerTemplate.csproj
 ├── FinanceTrackerTemplate.sln
 ├── appsettings.json
